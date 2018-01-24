@@ -17,11 +17,9 @@
 	http://www.springframework.org/schema/security/spring-security.xsd">
     
     <context:component-scan base-package="com.slokam.onlineFront.controller"></context:component-scan>
-  
-  
-  
-	
-	
+     <context:component-scan base-package="com.slokam.Backend.DaoImpl"></context:component-scan>
+          <context:component-scan base-package="com.slokam.Backend.config"></context:component-scan>	
+     	
 	<!-- Loading static resources -->
 	<mvc:annotation-driven />
 	
